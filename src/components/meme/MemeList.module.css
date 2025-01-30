@@ -1,0 +1,16 @@
+.headerSpacer {
+  height: 100px; 
+  width: 100%;
+}
+
+.memeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 0px 40px 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
