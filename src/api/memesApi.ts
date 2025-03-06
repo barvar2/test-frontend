@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Get API base URL from environment variables
-const API_BASE_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}/memes` || "http://localhost:3001/memes";
+const API_BASE_URL = "http://localhost:3001/memes";
 
 // Fetch memes with pagination
 export const fetchMemes = async (page: number) => {
